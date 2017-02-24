@@ -51,5 +51,4 @@ Clone or Download this Repo. Then simply drag the class ```MTRipple.swift``` to 
 
 ```
     ripple.hideAnimation()
-
-``
+```
