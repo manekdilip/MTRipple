@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8DDF5A1E5FEEF20022E4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDF581E5FEEF20022E4AF /* Main.storyboard */; };
+		EF8DDF5C1E5FEEF20022E4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDF5B1E5FEEF20022E4AF /* Assets.xcassets */; };
+		EF8DDF5F1E5FEEF20022E4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDF5D1E5FEEF20022E4AF /* LaunchScreen.storyboard */; };
+		EF8DDF691E5FEF350022E4AF /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DDF661E5FEF350022E4AF /* AnimationVC.swift */; };
+		EF8DDF6A1E5FEF350022E4AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DDF671E5FEF350022E4AF /* AppDelegate.swift */; };
+		EF8DDF6B1E5FEF350022E4AF /* MTRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DDF681E5FEF350022E4AF /* MTRipple.swift */; };
+		EF8DDF6E1E5FEFC00022E4AF /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDF6C1E5FEFC00022E4AF /* circle.png */; };
+		EF8DDF6F1E5FEFC00022E4AF /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDF6D1E5FEFC00022E4AF /* circle@2x.png */; };
+		EF8DDF711E5FF43D0022E4AF /* circle2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDF701E5FF43D0022E4AF /* circle2.png */; };
+		EF8DDF731E5FF5230022E4AF /* circle1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8DDF721E5FF5230022E4AF /* circle1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF8DDF511E5FEEF20022E4AF /* MTRipple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTRipple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8DDF591E5FEEF20022E4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8DDF5B1E5FEEF20022E4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8DDF5E1E5FEEF20022E4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8DDF601E5FEEF20022E4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8DDF661E5FEF350022E4AF /* AnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		EF8DDF671E5FEF350022E4AF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8DDF681E5FEF350022E4AF /* MTRipple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTRipple.swift; sourceTree = "<group>"; };
+		EF8DDF6C1E5FEFC00022E4AF /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		EF8DDF6D1E5FEFC00022E4AF /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
+		EF8DDF701E5FF43D0022E4AF /* circle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle2.png; sourceTree = "<group>"; };
+		EF8DDF721E5FF5230022E4AF /* circle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8DDF4E1E5FEEF20022E4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8DDF481E5FEEF20022E4AF = {
+			isa = PBXGroup;
+			children = (
+				EF8DDF531E5FEEF20022E4AF /* MTRipple */,
+				EF8DDF521E5FEEF20022E4AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8DDF521E5FEEF20022E4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DDF511E5FEEF20022E4AF /* MTRipple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8DDF531E5FEEF20022E4AF /* MTRipple */ = {
+			isa = PBXGroup;
+			children = (
+				EF8DDF681E5FEF350022E4AF /* MTRipple.swift */,
+				EF8DDF671E5FEF350022E4AF /* AppDelegate.swift */,
+				EF8DDF661E5FEF350022E4AF /* AnimationVC.swift */,
+				EF8DDF581E5FEEF20022E4AF /* Main.storyboard */,
+				EF8DDF701E5FF43D0022E4AF /* circle2.png */,
+				EF8DDF721E5FF5230022E4AF /* circle1.png */,
+				EF8DDF6C1E5FEFC00022E4AF /* circle.png */,
+				EF8DDF6D1E5FEFC00022E4AF /* circle@2x.png */,
+				EF8DDF5B1E5FEEF20022E4AF /* Assets.xcassets */,
+				EF8DDF5D1E5FEEF20022E4AF /* LaunchScreen.storyboard */,
+				EF8DDF601E5FEEF20022E4AF /* Info.plist */,
+			);
+			path = MTRipple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8DDF501E5FEEF20022E4AF /* MTRipple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8DDF631E5FEEF20022E4AF /* Build configuration list for PBXNativeTarget "MTRipple" */;
+			buildPhases = (
+				EF8DDF4D1E5FEEF20022E4AF /* Sources */,
+				EF8DDF4E1E5FEEF20022E4AF /* Frameworks */,
+				EF8DDF4F1E5FEEF20022E4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTRipple;
+			productName = MTRipple;
+			productReference = EF8DDF511E5FEEF20022E4AF /* MTRipple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8DDF491E5FEEF20022E4AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dilip Manek";
+				TargetAttributes = {
+					EF8DDF501E5FEEF20022E4AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJESF9R9MD;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF8DDF4C1E5FEEF20022E4AF /* Build configuration list for PBXProject "MTRipple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8DDF481E5FEEF20022E4AF;
+			productRefGroup = EF8DDF521E5FEEF20022E4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8DDF501E5FEEF20022E4AF /* MTRipple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8DDF4F1E5FEEF20022E4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8DDF711E5FF43D0022E4AF /* circle2.png in Resources */,
+				EF8DDF5F1E5FEEF20022E4AF /* LaunchScreen.storyboard in Resources */,
+				EF8DDF6F1E5FEFC00022E4AF /* circle@2x.png in Resources */,
+				EF8DDF5C1E5FEEF20022E4AF /* Assets.xcassets in Resources */,
+				EF8DDF731E5FF5230022E4AF /* circle1.png in Resources */,
+				EF8DDF5A1E5FEEF20022E4AF /* Main.storyboard in Resources */,
+				EF8DDF6E1E5FEFC00022E4AF /* circle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8DDF4D1E5FEEF20022E4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8DDF6A1E5FEF350022E4AF /* AppDelegate.swift in Sources */,
+				EF8DDF691E5FEF350022E4AF /* AnimationVC.swift in Sources */,
+				EF8DDF6B1E5FEF350022E4AF /* MTRipple.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF8DDF581E5FEEF20022E4AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8DDF591E5FEEF20022E4AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8DDF5D1E5FEEF20022E4AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8DDF5E1E5FEEF20022E4AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8DDF611E5FEEF20022E4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8DDF621E5FEEF20022E4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8DDF641E5FEEF20022E4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CJESF9R9MD;
+				INFOPLIST_FILE = MTRipple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MTRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF8DDF651E5FEEF20022E4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CJESF9R9MD;
+				INFOPLIST_FILE = MTRipple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MTRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8DDF4C1E5FEEF20022E4AF /* Build configuration list for PBXProject "MTRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8DDF611E5FEEF20022E4AF /* Debug */,
+				EF8DDF621E5FEEF20022E4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8DDF631E5FEEF20022E4AF /* Build configuration list for PBXNativeTarget "MTRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8DDF641E5FEEF20022E4AF /* Debug */,
+				EF8DDF651E5FEEF20022E4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8DDF491E5FEEF20022E4AF /* Project object */;
+}
